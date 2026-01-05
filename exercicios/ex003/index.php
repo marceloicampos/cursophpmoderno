@@ -18,7 +18,7 @@
     $_0idade = 43; // int, integer
     $casado = true; // bool, boolean
     $hexadecimal = 0x1A; // int
-    $float = 3e2; // float, nesse casso 10 elevado 2 x 3 = 300
+    $float = 3e2; // float, nesse casso 10 elevado 2, vezes 3 = 300 ou 10(2)x3
     const PAIS = "Brasileiro";
     const CURSO = "PHP";
     const ID_ALUNO = 1433;
@@ -34,9 +34,9 @@
     </br>
     <?php
     $num = 300;
-    $numHexa = 0x1A;
-    $numBin = 0b1011;
-    $numOctal = 010;
+    $numHexa = 0x1A; //0x = hexadecimal
+    $numBin = 0b1011; //0b = binário
+    $numOctal = 010; //0 = octal
     echo "O valor da variável é $num </br>";
     echo 'O valor da variável é $num </br>';
     echo "O valor da variável é $numHexa </br>";
