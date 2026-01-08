@@ -20,6 +20,7 @@
         $nome = $_GET["nome"] ?? "sem nome";
         $sobrenome = $_GET["sobrenome"] ?? "desconhecido";
         echo "Olá <strong>$nome</strong> $sobrenome";
+        // var_dump($_GET);
         // var_dump($_POST);
         // var_dump($_COOKIE);
         // var_dump($_REQUEST); // junção de get, post e cookie
