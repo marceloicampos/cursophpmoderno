@@ -17,6 +17,7 @@
     <p><a href="./exercicios/ex003/index.php">Exercício 03</a></p>
     <p><a href="./exercicios/ex004/index.html">Exercício 04</a></p>
     <p><a href="./desafios/d001/index.html">Desafio 01</a></p>
+    <p><a href="./desafios/d002/index.html">Desafio 02</a></p>
 </body>
 
 </html>
