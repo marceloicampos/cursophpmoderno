@@ -16,7 +16,9 @@
     <main>
         <h1>Resultado Final</h1>
         <?php
-        $rand = mt_rand(1, 1000);
+        $min = 1;
+        $max = 1000;
+        $rand = mt_rand($min, $max);
         echo "O número escolhido é: <strong>$rand</strong></br>";
         ?>
         <a href="./"><button type="submit"><strong>&#x2B05;</strong> Voltar</button></a>
